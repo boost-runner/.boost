@@ -10,6 +10,7 @@ on:
         description: The scan parameters
         required: true
 
+
 jobs:
   boost-scanner:
     if: github.event.inputs.job_name == ''
